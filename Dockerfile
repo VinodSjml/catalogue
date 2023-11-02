@@ -1,5 +1,5 @@
 FROM          node:18 
-RUN           roboshop 
+RUN           useradd roboshop 
 WORKDIR       /home/roboshop
 COPY          node_modules/ node_modules/
 COPY          server.js .
