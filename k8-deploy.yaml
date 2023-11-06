@@ -68,10 +68,10 @@ metadata:
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
-    kind: Deployment  
+    kind: Deployment
     name: catalogue
-  minReplicas: 1  
-  maxReplicas: 15  
+  minReplicas: 3
+  maxReplicas: 10
   metrics:
   - type: Resource
     resource:
