@@ -1,4 +1,4 @@
-@Library ('roboshop_shared_library@main') _
+@Library('roboshop_shared_library@main') _
 
 env.REPONAME = "catalogue"
 env.TFDIR = "mutable-infra"
