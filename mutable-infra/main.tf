@@ -1,4 +1,4 @@
-module "cart"{
+module "catalogue"{
     source = "./vendor/modules/app"
     ENV    = var.ENV
     SPOT_INSTANCE_COUNT = var.SPOT_INSTANCE_COUNT
